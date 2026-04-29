@@ -21,6 +21,7 @@ const arrayRoation = (A, K) => {
     reverseInRange(A, 0, k - 1);
     reverseInRange(A, k - 1, N);
   }
+  // receerve
   return A;
 };
 console.log(arrayRoation([1, 2, 3, 4], 2));
