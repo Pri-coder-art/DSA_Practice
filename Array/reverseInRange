@@ -1,0 +1,16 @@
+const reverseInRange = (arr, B, C) => {
+  let temp;
+  s = B;
+  e = C;
+
+  while (s <= e) {
+    temp = arr[s];
+    arr[s] = arr[e];
+    arr[e] = temp;
+    s++;
+    e--;
+  }
+  return arr;
+};
+
+console.log(reverseInRange([1, 2, 3, 4], 2, 3));
